@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: url("../img/backround.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #020617;
+  padding: 24px;
+  border-radius: 10px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  background: #16a34a;
+  color: #020617;
+  font-weight: bold;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, h2, h3 {
+  margin: 0 0 10px;
+  color: #ffffff;
+}
+
+.form-section label {
+  display: block;
+  margin-bottom: 14px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 4px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #16a34a;
+  border: none;
+  border-radius: 6px;
+  color: #020617;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #15803d;
+}
+
+#mensaje {
+  margin-top: 10px;
+  color: #22c55e;
+}
+
+.reservas-section {
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #020617;
+  border: 1px solid #1f2937;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eliminar {
+  background: #b91c1c;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.eliminar:hover {
+  background: #991b1b;
+}
