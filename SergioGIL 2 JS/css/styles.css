@@ -12,7 +12,6 @@ body {
   padding: 0;
 }
 
-
 .container {
   max-width: 600px;
   margin: 40px auto;
@@ -63,7 +62,7 @@ button {
   padding: 12px;
   background: #16a34a;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   color: #020617;
   font-weight: bold;
   cursor: pointer;
@@ -73,9 +72,28 @@ button:hover {
   background: #15803d;
 }
 
+#btnSubmit {
+  margin-top: 10px;
+}
+
+#btnCancelar {
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.cancelar {
+  background: #f59e0b;
+  color: #020617;
+}
+
+.cancelar:hover {
+  background: #d97706;
+}
+
 #mensaje {
   margin-top: 10px;
   color: #22c55e;
+  min-height: 20px;
 }
 
 .reservas-section {
@@ -85,29 +103,62 @@ button:hover {
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 li {
   background: #020617;
   border: 1px solid #1f2937;
-  margin-bottom: 10px;
-  padding: 10px;
-  border-radius: 6px;
-
+  margin-bottom: 16px;
+  padding: 18px;
+  border-radius: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #e5e7eb;
+}
+
+.reserva-info {
+  flex: 1;
+  margin-right: 20px;
+  color: #e5e7eb;
+  line-height: 1.4;
+}
+
+.reserva-acciones {
+  display: flex;
+  gap: 12px;
+}
+
+.editar {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: auto;
+}
+
+.editar:hover {
+  background: #1d4ed8;
 }
 
 .eliminar {
-  background: #b91c1c;
+  background: #dc2626;
   color: #fff;
   border: none;
-  padding: 6px 10px;
-  border-radius: 4px;
+  padding: 10px 14px;
+  border-radius: 10px;
   cursor: pointer;
+  width: auto;
 }
 
 .eliminar:hover {
-  background: #991b1b;
+  background: #b91c1c;
+}
+
+.editando {
+  border-left: 4px solid #22c55e;
+  background: #0b1220;
 }
